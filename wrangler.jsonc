@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "gy-api-proxy",
+  "compatibility_date": "2024-01-01",
+  "main": "worker.js",
+  "compatibility_flags": ["nodejs_compat"],
+  
+  "vars": {
+    "ENVIRONMENT": "production",
+    "VERSION": "1.0.0",
+    "TARGET_URL": "http://api1.123h.top:5000"
+  }
+}

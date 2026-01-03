@@ -1,5 +1,12 @@
 {
   "name": "gy-api-proxy",
   "version": "1.0.0",
-  "main": "worker.js"
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
 }
