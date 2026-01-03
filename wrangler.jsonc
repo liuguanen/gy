@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
-  "name": "gy-api-proxy",
+  "name": "gy",
   "compatibility_date": "2024-01-01",
   "main": "worker.js",
   "compatibility_flags": ["nodejs_compat"],
